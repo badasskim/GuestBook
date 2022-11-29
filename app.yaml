@@ -1,0 +1,14 @@
+runtime: nodejs
+env: flex
+
+# env_variables:
+#   NUM : 8080
+#   DB_url : 'mongodb+srv://rladhkdwls520:rlaguswls0520@cluster0.byq3uhl.mongodb.net/?retryWrites=true&w=majority'
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+
